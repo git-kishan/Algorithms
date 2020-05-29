@@ -39,12 +39,5 @@ public class b{
         String s="abcabcabcabcdefgfgadfddsabcabc";
         String pat="abcabc";
         kmpSearch(s, pat);
-
-        System.out.println("");
-        for(int i : reset){
-            System.out.print(i+" ");
-        }
-        System.out.println("");
-
     }
 }
