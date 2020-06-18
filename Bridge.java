@@ -14,7 +14,6 @@ public class b{
 		in[u]=lo[u]=timer;
 		timer++;
 		for(int v : al[u]){
-
 			if(!visited[v]){
 				dfs(v,u);
 				lo[u]=Math.min(lo[u],lo[v]);
