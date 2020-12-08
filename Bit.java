@@ -17,6 +17,8 @@ class Bit{
             i+=i&(-i);
         }
     }
+    
+    
     public static void main(String [] args){
         int [] a={4,1,2,5,2,6};
         int max=-1;
